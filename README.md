@@ -22,7 +22,8 @@ evaluated at the typical corner (tt_025C_1v80). The full write-up is in
 | Gate-level simulation | `PASS: 256 vectors checked, 0 errors` |
 | STA (typical corner) | Tmin = 2.79 ns, Fmax = 358.4 MHz, critical path `a_r[1]` → `p[6]` |
 | Place and route (3.5 ns clock) | Setup slack +0.077 ns, post-route Fmax = 292.2 MHz |
-| Signoff | 0 DRC errors (Magic, KLayout), 0 LVS errors (Netgen) |
+| Signoff | 0 DRC errors (Magic, KLayout), 0 LVS errors (Netgen); hold slack +0.246 ns |
+| Power (estimate, 3.5 ns clock) | 0.575 mW total; worst IR drop 0.72 mV |
 | Layout | 150 × 150 µm die, 1882 instances, 2495 µm of wire |
 
 ![Layout layers of the final GDS](report/images/layout_layers.gif)
