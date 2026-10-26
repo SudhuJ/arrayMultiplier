@@ -130,7 +130,7 @@ sta sta/sta.tcl
 | Tmin | 10 − 7.213 = 2.787 ns, rounded to 2.79 ns |
 | Fmax | 1000 / 2.79 = 358.4 MHz |
 | Slack at T = Tmin | +0.003 ns |
-| Critical path | `_91_` (`a_r[1]`) → `_88_` (`p[6]`), 9 logic cells |
+| Critical path | `_91_` (`a_r[1]`) → `_88_` (`p[6]`), 8 logic cells |
 | Latency | 2 × Tmin = 5.58 ns |
 | Throughput | 358.4 million results/s |
 
@@ -187,9 +187,7 @@ They are recorded here for completeness; they are not part of the typical-corner
 
 ## Report
 
-```
-tectonic report/report.tex      # writes report/report.pdf
-```
-
-The report covers the design, all four parts with their results tables, the block diagram,
-the waveform and layout figures, and the answers to the report questions.
+[`report/report.pdf`](report/report.pdf) covers the design, all four parts with their results
+tables, the block diagram, the waveform and layout figures, and the answers to the report
+questions. It was compiled with [Tectonic](https://tectonic-typesetting.github.io/) from a LaTeX
+source that is kept outside the repository.
