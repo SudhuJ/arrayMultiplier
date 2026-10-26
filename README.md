@@ -69,3 +69,9 @@ corner, but the slow corner (ss, 100 °C, 1.60 V) kept failing by about 0.15–0
 upwards, because the post-CTS timing repair only optimises for the typical corner. Since Part C
 specifies the typical corner (tt_025C_1v80) only, run 9 restricts signoff to that corner with
 `"STA_CORNERS": ["nom_tt_025C_1v80"]`.
+
+## Report
+
+```
+tectonic report/report.tex      # writes report/report.pdf
+```
